@@ -1,0 +1,254 @@
+{
+  "formTypes": [
+    {
+      "id": "text",
+      "classes": "class1"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Hierros de construcción"
+    }
+  ],
+  "materiales": [
+    "Acero"
+  ],
+  "unidades": [
+    "mm",
+    "Ø"
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "categoria": 1,
+      "atributos": {
+        "descripcion": {
+          "value": "Barras de acero conformadas de dureza natural, soldables, para estructuras de hormigón armado",
+          "formTypeId": "text"
+        },
+        "nombre": {
+          "value": "Barra de acero",
+          "formTypeId": "text"
+        },
+        "alias": {
+          "value": [
+            "Hierro",
+            "Fierro",
+            "Barra"
+          ],
+          "formTypeId": "TODO"
+        },
+        "materiales": {
+          "value": [
+            "Acero"
+          ],
+          "formTypeId": "checkbox"
+        },
+        "tipo": {
+          "value": "DNA 420",
+          "formTypeId": "text"
+        },
+        "medidas": {
+          "formTypeId": "group",
+          "largo": {
+            "value": 12,
+            "unit": "mm",
+            "formTypeId": "measure"
+          },
+          "diametro": {
+            "value": 6,
+            "unit": "Ø",
+            "formTypeId": "measure"
+          }
+        }
+      }
+    },
+    {
+      "id": "2",
+      "nombre": "Barra de acero",
+      "alias": [
+        "Hierro",
+        "Fierro",
+        "Barra"
+      ],
+      "categoria": 1,
+      "material": "",
+      "tipo": "DNA 420"
+    },
+    {
+      "id": "3",
+      "name": "Barra de acero",
+      "alias": [
+        "Hierro",
+        "Fierro",
+        "Barra"
+      ],
+      "category": 1,
+      "material": "Acero",
+      "type": "DNA 420",
+      "large": 12,
+      "unidadLargo": "mm",
+      "diameter": 10,
+      "diameterUnit": "Ø"
+    },
+    {
+      "id": "4",
+      "descripcion": "Barras de acero conformadas de dureza natural, soldables, para estructuras de hormigón armado",
+      "nombre": "Barra de acero",
+      "categoria": 1,
+      "alias": [
+        "Hierro",
+        "Fierro",
+        "Barra"
+      ],
+      "materiales": [
+        "Acero"
+      ],
+      "tipo": "DNA 420",
+      "medidas": {
+        "largo": {
+          "value": 12,
+          "unit": "mm"
+        },
+        "diametro": {
+          "value": 12,
+          "unit": "Ø"
+        }
+      }
+    },
+    {
+      "id": "5",
+      "descripcion": "Barras de acero conformadas de dureza natural, soldables, para estructuras de hormigón armado",
+      "nombre": "Barra de acero",
+      "categoria": 1,
+      "alias": [
+        "Hierro",
+        "Fierro",
+        "Barra"
+      ],
+      "materiales": [
+        "Acero"
+      ],
+      "tipo": "DNA 420",
+      "medidas": {
+        "largo": {
+          "value": 12,
+          "unit": "mm"
+        },
+        "diametro": {
+          "value": 16,
+          "unit": "Ø"
+        }
+      }
+    },
+    {
+      "id": "6",
+      "descripcion": "Barras de acero conformadas de dureza natural, soldables, para estructuras de hormigón armado",
+      "nombre": "Barra de acero",
+      "categoria": 1,
+      "alias": [
+        "Hierro",
+        "Fierro",
+        "Barra"
+      ],
+      "materiales": [
+        "Acero"
+      ],
+      "tipo": "DNA 420",
+      "medidas": {
+        "largo": {
+          "value": 12,
+          "unit": "mm"
+        },
+        "diametro": {
+          "value": 20,
+          "unit": "Ø"
+        }
+      }
+    },
+    {
+      "id": "7",
+      "descripcion": "Barras de acero conformadas de dureza natural, soldables, para estructuras de hormigón armado",
+      "nombre": "Barra de acero",
+      "categoria": 1,
+      "alias": [
+        "Hierro",
+        "Fierro",
+        "Barra"
+      ],
+      "materiales": [
+        "Acero"
+      ],
+      "tipo": "DNA 420",
+      "medidas": {
+        "largo": {
+          "value": 12,
+          "unit": "mm"
+        },
+        "diametro": {
+          "value": 25,
+          "unit": "Ø"
+        }
+      }
+    },
+    {
+      "id": "8",
+      "descripcion": "Barras de acero conformadas de dureza natural, soldables, para estructuras de hormigón armado",
+      "nombre": "Barra de acero",
+      "categoria": 1,
+      "alias": [
+        "Hierro",
+        "Fierro",
+        "Barra"
+      ],
+      "materiales": [
+        "Acero"
+      ],
+      "tipo": "DNA 420",
+      "medidas": {
+        "largo": {
+          "value": 12,
+          "unit": "mm"
+        },
+        "diametro": {
+          "value": 32,
+          "unit": "Ø"
+        }
+      }
+    },
+    {
+      "id": "9",
+      "descripcion": "Barras de acero conformadas de dureza natural, soldables, para estructuras de hormigón armado",
+      "nombre": "Barra de acero",
+      "categoria": 1,
+      "alias": [
+        "Hierro",
+        "Fierro",
+        "Barra"
+      ],
+      "materiales": [
+        "Acero"
+      ],
+      "tipo": "DNA 420",
+      "medidas": {
+        "largo": {
+          "value": 12,
+          "unit": "mm"
+        },
+        "diametro": {
+          "value": 40,
+          "unit": "Ø"
+        }
+      }
+    }
+  ],
+  "auth": [
+    {
+      "username": "prueba",
+      "email": "a@v.c",
+      "password": "123456",
+      "id": "prueba123456"
+    }
+  ]
+}

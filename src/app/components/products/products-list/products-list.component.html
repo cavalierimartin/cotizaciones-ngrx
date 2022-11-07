@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="right">
+    <span><b>Ordenar por </b></span>
+    <select name="" id="">
+      <option>Más relevantes</option>
+      <option>Precio Mayor a Menor</option>
+      <option>Precio Menor a Mayor</option>
+    </select>
+  </div>
+</div>
+<div *ngIf="!(loadingProducts$ | async); else loadingBlock">
+  <div *ngIf="error$ | async as error">
+    {{ error }}
+  </div>
+  <div class="row" *ngIf="products$ | async as products">
+    <div
+      class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <div class="col-12 col-md-4" *ngFor="let product of products">
+        <app-product-card [product]="product"></app-product-card>
+      </div>
+    </div>
+  </div>
+</div>
+<ng-template #loadingBlock>
+  Cargando...
+  <!-- <app-loading-block></app-loading-block> -->
+</ng-template>
